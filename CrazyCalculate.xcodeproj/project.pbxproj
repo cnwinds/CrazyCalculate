@@ -22,8 +22,6 @@
 		C3561C4B1A0BCC4200B19325 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = C3561C4A1A0BCC4200B19325 /* bg.png */; };
 		C3561C4D1A0E41CF00B19325 /* ThumbBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3561C4C1A0E41CF00B19325 /* ThumbBar.swift */; };
 		C385F3351A1B3B880010A395 /* ScoreBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385F3341A1B3B880010A395 /* ScoreBoard.swift */; };
-		C385F3371A1B98CC0010A395 /* rank.png in Resources */ = {isa = PBXBuildFile; fileRef = C385F3361A1B98CC0010A395 /* rank.png */; };
-		C39277B71A08A20D00DF9466 /* SpaceshipScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39277B61A08A20D00DF9466 /* SpaceshipScene.swift */; };
 		C39277B91A09135B00DF9466 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39277B81A09135B00DF9466 /* Welcome.swift */; };
 		C39277BB1A09138F00DF9466 /* HighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39277BA1A09138F00DF9466 /* HighScores.swift */; };
 		C39E027C1A18EEBF0051F688 /* ScoreCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39E027B1A18EEBF0051F688 /* ScoreCard.swift */; };
@@ -60,8 +58,6 @@
 		C3561C4A1A0BCC4200B19325 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Asserts/bg.png; sourceTree = "<group>"; };
 		C3561C4C1A0E41CF00B19325 /* ThumbBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThumbBar.swift; sourceTree = "<group>"; };
 		C385F3341A1B3B880010A395 /* ScoreBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreBoard.swift; sourceTree = "<group>"; };
-		C385F3361A1B98CC0010A395 /* rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rank.png; sourceTree = "<group>"; };
-		C39277B61A08A20D00DF9466 /* SpaceshipScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceshipScene.swift; sourceTree = "<group>"; };
 		C39277B81A09135B00DF9466 /* Welcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		C39277BA1A09138F00DF9466 /* HighScores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScores.swift; sourceTree = "<group>"; };
 		C39E027B1A18EEBF0051F688 /* ScoreCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreCard.swift; sourceTree = "<group>"; };
@@ -117,7 +113,6 @@
 				C3539F0B1A05B09A00F576C2 /* Keyboard.swift */,
 				C3539EED1A04684800F576C2 /* GameViewController.swift */,
 				C3539EEF1A04684800F576C2 /* Main.storyboard */,
-				C39277B61A08A20D00DF9466 /* SpaceshipScene.swift */,
 				C39277B81A09135B00DF9466 /* Welcome.swift */,
 				C39277BA1A09138F00DF9466 /* HighScores.swift */,
 				C3539EF21A04684800F576C2 /* Images.xcassets */,
@@ -132,7 +127,6 @@
 			children = (
 				C3561C4A1A0BCC4200B19325 /* bg.png */,
 				C3561C481A0BCAC200B19325 /* beepwrong.mp3 */,
-				C385F3361A1B98CC0010A395 /* rank.png */,
 				C3561C461A0BC5BB00B19325 /* button.png */,
 				C3467D431A066B32003634C3 /* clank.wav */,
 				C3539EE61A04684800F576C2 /* Info.plist */,
@@ -244,7 +238,6 @@
 				C3539EF61A04684800F576C2 /* LaunchScreen.xib in Resources */,
 				C3561C4B1A0BCC4200B19325 /* bg.png in Resources */,
 				C3539EF31A04684800F576C2 /* Images.xcassets in Resources */,
-				C385F3371A1B98CC0010A395 /* rank.png in Resources */,
 				C3539EF11A04684800F576C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +261,6 @@
 				C39277BB1A09138F00DF9466 /* HighScores.swift in Sources */,
 				C385F3351A1B3B880010A395 /* ScoreBoard.swift in Sources */,
 				C333DB8F1A1AF3230026623E /* RankManager.swift in Sources */,
-				C39277B71A08A20D00DF9466 /* SpaceshipScene.swift in Sources */,
 				C39E027C1A18EEBF0051F688 /* ScoreCard.swift in Sources */,
 				C3539F0C1A05B09A00F576C2 /* Keyboard.swift in Sources */,
 				C39E027E1A18EED70051F688 /* ScoreRank.swift in Sources */,
