@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C3219A191A5FBB9B00BE6F8C /* a in Resources */ = {isa = PBXBuildFile; fileRef = C3219A181A5FBB9B00BE6F8C /* a */; };
 		C333DB8F1A1AF3230026623E /* RankManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333DB8E1A1AF3230026623E /* RankManager.swift */; };
 		C3467D441A066B32003634C3 /* clank.wav in Resources */ = {isa = PBXBuildFile; fileRef = C3467D431A066B32003634C3 /* clank.wav */; };
 		C3539EE81A04684800F576C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3539EE71A04684800F576C2 /* AppDelegate.swift */; };
@@ -42,7 +41,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C3219A181A5FBB9B00BE6F8C /* a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = a; sourceTree = "<group>"; };
 		C333DB8E1A1AF3230026623E /* RankManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankManager.swift; sourceTree = "<group>"; };
 		C3467D431A066B32003634C3 /* clank.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = clank.wav; path = Asserts/clank.wav; sourceTree = "<group>"; };
 		C3539EE21A04684800F576C2 /* CrazyCalculate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrazyCalculate.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,7 +89,6 @@
 		C3539ED91A04684800F576C2 = {
 			isa = PBXGroup;
 			children = (
-				C3219A181A5FBB9B00BE6F8C /* a */,
 				C3539EE41A04684800F576C2 /* CrazyCalculate */,
 				C3539EFE1A04684800F576C2 /* CrazyCalculateTests */,
 				C3539EE31A04684800F576C2 /* Products */,
@@ -241,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3219A191A5FBB9B00BE6F8C /* a in Resources */,
 				C3561C471A0BC5BB00B19325 /* button.png in Resources */,
 				C3467D441A066B32003634C3 /* clank.wav in Resources */,
 				C3561C491A0BCAC200B19325 /* beepwrong.mp3 in Resources */,
